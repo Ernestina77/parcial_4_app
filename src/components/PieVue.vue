@@ -1,6 +1,6 @@
 <template>
  <footer>
- <button type="button" class="btn btn-outline-primary">Primary</button>
+ <div class="button"><button type="button" class="btn btn-primary">Primary</button></div>
  </footer> 
 </template>
 
@@ -12,9 +12,9 @@
  }
 </script>
 <style>
-footer{
-width: 100%;
-height: 70px;
+.button{
+    width: 100%;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
