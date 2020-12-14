@@ -1,9 +1,9 @@
 <template>
- <div>
+ <div class="tarjeta">
  <div class="card" style="width: 18rem;">
   <img src="/img/Foto.JPG" class="card-img-top" alt="/img/Foto.JPG">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Hacer una parada en: Malecon Puerto de la Libertad, Calle El Obispo, Puerto de La Libertad, La Libertad El Salvador.</p>
   </div>
 </div>
  </div> 
@@ -17,3 +17,11 @@
  }
 </script>
 <style>
+.tarjeta{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>

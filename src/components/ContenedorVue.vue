@@ -1,6 +1,6 @@
 <template>
- <div>
- <h1>Hola</h1>
+ <div class="vacaciones">
+ <h1>Felices Vaciones</h1>
  </div> 
 </template>
 
@@ -11,3 +11,11 @@
     
  }
 </script>
+<style>
+.vacaciones{
+width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>

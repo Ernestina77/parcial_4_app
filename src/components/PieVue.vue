@@ -1,7 +1,7 @@
 <template>
- <div>
- <h1>Hola</h1>
- </div> 
+ <footer>
+ <button type="button" class="btn btn-outline-primary">Primary</button>
+ </footer> 
 </template>
 
 <script>
@@ -11,3 +11,12 @@
     
  }
 </script>
+<style>
+footer{
+width: 100%;
+height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
